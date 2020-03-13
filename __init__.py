@@ -5,7 +5,7 @@ db = SQLAlchemy()
 
 def create_app():
 	app = Flask(__name__)
-	app.config["SQLALCHEMY_DATABASE_URI"] = "mysql+pymysql://root:@pp135py@localhost/list_app"
+	app.config["SQLALCHEMY_DATABASE_URI"] = "mysql+pymysql://root:#hidden from github@localhost/list_app"
 	
 	db.init_app(app)
 	
